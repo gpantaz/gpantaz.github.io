@@ -1,20 +1,26 @@
 ---
-title: 'Combine to Describe: Evaluating Compositional Generalization in Image Captioning'
+title: 'Multitask Multimodal Prompted Training for Interactive Embodied Task Completion'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Alessandro Suglia
+  - Malvina Nikandrou
+  - Amit Parekh
+  - Bhathiya Hemanthage
   - Arash Eshghi
+  - Ioannis Konstas
+  - Verena Rieser
+  - Oliver Lemon
+  - Alessandro Suglia
 
 # # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2022-07-01T00:00:00Z'
+date: '2023-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -26,10 +32,10 @@ doi: ''
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop'
-publication_short: SRW ACL
+publication: 'The 2023 Conference on Empirical Methods in Natural Language Processing'
+publication_short: EMNLP
 
-abstract: 'Compositionality–the ability to combine simpler concepts to understand & generate arbitrarily more complex conceptual structures–has long been thought to be the cornerstone of human language capacity. With the recent, notable success of neural models in various NLP tasks, attention has now naturally turned to the compositional capacity of these models. In this paper, we study the compositional generalization properties of image captioning models. We perform a set experiments under controlled conditions using model and data ablations, each designed to benchmark a particular facet of compositional generalization: systematicity is the ability of a model to create novel combinations of concepts out of those observed during training, productivity is here operationalised as the capacity of a model to extend its predictions beyond the length distribution it has observed during training, and substitutivity is concerned with the robustness of the model against synonym substitutions. While previous work has focused primarily on systematicity, here we provide a more in-depth analysis of the strengths and weaknesses of state of the art captioning models. Our findings demonstrate that the models we study here do not compositionally generalize in terms of systematicity and productivity, however, they are robust to some degree to synonym substitutions'
+abstract: 'Interactive and embodied tasks pose at least two fundamental challenges to existing Vision & Language (VL) models, including 1) grounding language in trajectories of actions and observations, and 2) referential disambiguation. To tackle these challenges, we propose an Embodied MultiModal Agent (EMMA): a unified encoder-decoder model that reasons over images and trajectories, and casts action prediction as multimodal text generation. By unifying all tasks as text generation, EMMA learns a language of actions which facilitates transfer across tasks. Different to previous modular approaches with independently trained components, we use a single multitask model where each task contributes to goal completion. EMMA performs on par with similar models on several VL benchmarks and sets a new state-of-the-art performance (36.81% success rate) on the Dialog-guided Task Completion (DTC), a benchmark to evaluate dialog-guided agents in the Alexa Arena'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -44,7 +50,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://aclanthology.org/2022.acl-srw.11/'
+url_pdf: 'https://arxiv.org/abs/2311.04067'
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_poster: ''

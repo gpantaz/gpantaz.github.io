@@ -1,20 +1,26 @@
 ---
-title: 'Combine to Describe: Evaluating Compositional Generalization in Image Captioning'
+title: 'Data Augmentation using GANs for Speech Emotion Recognition'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Aggelina Chatziagapi
+  - Georgios Paraskevopoulos
+  - Dimitris Sgouropoulos
   - admin
-  - Alessandro Suglia
-  - Arash Eshghi
+  - Malvina Nikandrou
+  - Theodoros Giannakopoulos
+  - Athanasios Katsamanis
+  - Alexandros Potamianos
+  - Shrikanth Narayanan
 
 # # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2022-07-01T00:00:00Z'
+date: '2019-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,9 +33,9 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: 'In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop'
-publication_short: SRW ACL
+publication_short: INTERSPEECH
 
-abstract: 'Compositionality–the ability to combine simpler concepts to understand & generate arbitrarily more complex conceptual structures–has long been thought to be the cornerstone of human language capacity. With the recent, notable success of neural models in various NLP tasks, attention has now naturally turned to the compositional capacity of these models. In this paper, we study the compositional generalization properties of image captioning models. We perform a set experiments under controlled conditions using model and data ablations, each designed to benchmark a particular facet of compositional generalization: systematicity is the ability of a model to create novel combinations of concepts out of those observed during training, productivity is here operationalised as the capacity of a model to extend its predictions beyond the length distribution it has observed during training, and substitutivity is concerned with the robustness of the model against synonym substitutions. While previous work has focused primarily on systematicity, here we provide a more in-depth analysis of the strengths and weaknesses of state of the art captioning models. Our findings demonstrate that the models we study here do not compositionally generalize in terms of systematicity and productivity, however, they are robust to some degree to synonym substitutions'
+abstract: 'In this work, we address the problem of data imbalance for the task of Speech Emotion Recognition (SER). We investigate conditioned data augmentation using Generative Adversarial Networks (GANs), in order to generate samples for underrepresented emotions. We adapt and improve a conditional GAN architecture to generate synthetic spectrograms for the minority class. For comparison purposes, we implement a series of signal-based data augmentation methods. The proposed GANbased approach is evaluated on two datasets, namely IEMOCAP and FEEL-25k, a large multi-domain dataset. Results demonstrate a 10% relative performance improvement in IEMOCAP and 5% in FEEL-25k, when augmenting the minority classes. Index Terms: Generative Adversarial Networks, Speech Emotion Recognition, data augmentation, data imbalance'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -44,7 +50,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://aclanthology.org/2022.acl-srw.11/'
+url_pdf: 'https://www.isca-speech.org/archive/pdfs/interspeech_2019/chatziagapi19_interspeech.pdf'
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_poster: ''
