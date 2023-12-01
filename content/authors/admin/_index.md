@@ -99,8 +99,6 @@ social:
     icon_pack: fab
     link: https://twitter.com/GeorgePantazop3
     # label: Follow me on Twitter
-    display:
-      header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=AUFTexwAAAAJ&hl=en
@@ -120,7 +118,11 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+I am a third year PhD student in the CDT in Robotics and Autonomous Systems at the [Edinburgh Center for
+Robotics](https://www.edinburgh-robotics.org/). supervised by [Arash Esghi](https://sites.google.com/site/araesh81/) and [Alessandro Suglia](https://alesuglia.github.io/). My work focuses on multimodal natural language processing. More specifically, I am interested in vision & language generative models with a focus on multitask learning and embodied agents. I am particularly excited about methods that equip vision & language models with fine and coarse grained understanding skills but teaching agents to act in dynamic environments from static data.
 
-This is the bio
+
+<!-- Before starting my Ph.D., I worked as a Machine Learning Engineer at [Behavioral Signals](https://behavioralsignals.com/). I completed my undergraduate studies at the [National Technical University of Athens](https://www.ece.ntua.gr/en) in Greece -->
+
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 {style="text-align: justify;"} -->
