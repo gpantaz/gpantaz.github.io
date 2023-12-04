@@ -119,7 +119,7 @@ social:
 highlight_name: true
 ---
 I am a third year PhD student in the CDT in Robotics and Autonomous Systems at the [Edinburgh Center for
-Robotics](https://www.edinburgh-robotics.org/). supervised by [Arash Esghi](https://sites.google.com/site/araesh81/) and [Alessandro Suglia](https://alesuglia.github.io/). My work focuses on multimodal natural language processing. More specifically, I am interested in vision & language generative models with a focus on multitask learning and embodied agents. I am particularly excited about methods that equip vision & language models with fine and coarse grained understanding skills but teaching agents to act in dynamic environments from static data.
+Robotics](https://www.edinburgh-robotics.org/). supervised by [Arash Esghi](https://sites.google.com/site/araesh81/) and [Alessandro Suglia](https://alesuglia.github.io/). My work focuses on multimodal natural language processing. More specifically, I am interested in vision & language generative models with a focus on multitask learning and embodied agents. I am particularly excited about methods that equip vision & language models with fine and coarse grained understanding skills but also teaching agents to act in dynamic environments from static data.
 
 
 <!-- Before starting my Ph.D., I worked as a Machine Learning Engineer at [Behavioral Signals](https://behavioralsignals.com/). I completed my undergraduate studies at the [National Technical University of Athens](https://www.ece.ntua.gr/en) in Greece -->
