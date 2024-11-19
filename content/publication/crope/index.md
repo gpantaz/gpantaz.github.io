@@ -1,5 +1,5 @@
 ---
-title: 'Lost in Space: Probing Fine-grained Spatial Understanding in Vision and Language Resamplers'
+title: 'CROPE: Evaluating In-Context Adaptation of Vision and Language Models to Culture-Specific Concepts'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
