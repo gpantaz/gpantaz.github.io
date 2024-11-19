@@ -5,7 +5,7 @@ title: 'Lost in Space: Probing Fine-grained Spatial Understanding in Vision and 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - George Pantazopoulos
+  - admin
   - Alessandro Suglia
   - Oliver Lemon
   - Arash Eshghi
