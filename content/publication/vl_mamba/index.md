@@ -1,5 +1,5 @@
 ---
-title: 'Data Augmentation using GANs for Speech Emotion Recognition'
+title: 'Shaking Up VLMs: Comparing Transformers and Structured State Space Models for Vision & Language Modeling'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here

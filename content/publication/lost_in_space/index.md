@@ -1,5 +1,5 @@
 ---
-title: 'Data Augmentation using GANs for Speech Emotion Recognition'
+title: 'Lost in Space: Probing Fine-grained Spatial Understanding in Vision and Language Resamplers'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
