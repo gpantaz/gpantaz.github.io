@@ -1,26 +1,26 @@
 ---
-title: 'CROPE: Evaluating In-Context Adaptation of Vision and Language Models to Culture-Specific Concepts'
+title: 'Shaking Up VLMs: Comparing Transformers and Structured State Space Models for Vision & Language Modeling'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Malvina Nikandrou
   - admin
-  - Nikolas Vitsakis
-  - Ioannis Konstas
+  - Malvina Nikandrou
   - Alessandro Suglia
+  - Oliver Lemon
+  - Arash Eshghi
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
 
-date: '2025-07-01T00:00:00Z'
+date: '2024-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-01-01T00:00:00Z'
+publishDate: '2024-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,10 +28,10 @@ publishDate: '2025-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics*
-publication_short: In *NAACL*
+publication: In *2024 Conference on Empirical Methods in Natural Language Processing*
+publication_short: In *EMNLP*
 
-abstract: As Vision and Language models (VLMs) are reaching users across the globe, assessing their cultural understanding has become a critical challenge. In this paper, we introduce CROPE, a visual question answering benchmark designed to probe the knowledge of culture-specific concepts and evaluate the capacity for cultural adaptation through contextual information. This allows us to distinguish between parametric knowledge acquired during training and contextual knowledge provided during inference via visual and textual descriptions. Our evaluation of several state-of-the-art open VLMs shows large performance disparities between culture-specific and common concepts in the parametric setting. Moreover, experiments with contextual knowledge indicate that models struggle to effectively utilize multimodal information and bind culture-specific concepts to their depictions. Our findings reveal limitations in the cultural understanding and adaptability of current VLMs that need to be addressed toward more culturally inclusive models.
+abstract: This study explores replacing Transformers in Visual Language Models (VLMs) with Mamba, a recent structured state space model (SSM) that demonstrates promising performance in sequence modeling. We test models up to 3B parameters under controlled conditions, showing that Mamba-based VLMs outperforms Transformers-based VLMs in captioning, question answering, and reading comprehension. However, we find that Transformers achieve greater performance in visual grounding and the performance gap widens with scale. We explore two hypotheses to explain this phenomenon':' 1) the effect of task-agnostic visual encoding on the updates of the hidden states, and 2) the difficulty in performing visual grounding from the perspective of in-context multimodal retrieval. Our results indicate that a task-aware encoding yields minimal performance gains on grounding, however, Transformers significantly outperform Mamba at in-context multimodal retrieval. Overall, Mamba shows promising performance on tasks where the correct output relies on a summary of the image but struggles when retrieval of explicit information from the context is required.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -47,9 +47,9 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2410.15453'
-url_code: 'https://github.com/MalvinaNikandrou/crope/tree/main'
-url_dataset: 'https://huggingface.co/datasets/Malvinan/CROPE'
+url_pdf: 'https://arxiv.org/abs/2409.05395'
+url_code: 'https://github.com/gpantaz/vl_mamba'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''

@@ -1,5 +1,5 @@
 ---
-title: 'CROPE: Evaluating In-Context Adaptation of Vision and Language Models to Culture-Specific Concepts'
+title: 'Enhancing Continual Learning in Visual Question Answering with Modality-Aware Feature Distillation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -7,20 +7,19 @@ title: 'CROPE: Evaluating In-Context Adaptation of Vision and Language Models to
 authors:
   - Malvina Nikandrou
   - admin
-  - Nikolas Vitsakis
   - Ioannis Konstas
   - Alessandro Suglia
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
 
-date: '2025-07-01T00:00:00Z'
+date: '2024-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-01-01T00:00:00Z'
+publishDate: '2024-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,10 +27,10 @@ publishDate: '2025-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics*
-publication_short: In *NAACL*
+publication: In *2024 ACL Third Workshop on Advances in Language and Vision Research*
+publication_short: In *ALVR Workshop*
 
-abstract: As Vision and Language models (VLMs) are reaching users across the globe, assessing their cultural understanding has become a critical challenge. In this paper, we introduce CROPE, a visual question answering benchmark designed to probe the knowledge of culture-specific concepts and evaluate the capacity for cultural adaptation through contextual information. This allows us to distinguish between parametric knowledge acquired during training and contextual knowledge provided during inference via visual and textual descriptions. Our evaluation of several state-of-the-art open VLMs shows large performance disparities between culture-specific and common concepts in the parametric setting. Moreover, experiments with contextual knowledge indicate that models struggle to effectively utilize multimodal information and bind culture-specific concepts to their depictions. Our findings reveal limitations in the cultural understanding and adaptability of current VLMs that need to be addressed toward more culturally inclusive models.
+abstract: Continual learning focuses on incrementally training a model on a sequence of tasks with the aim of learning new tasks while minimizing performance drop on previous tasks. Existing approaches at the intersection of Continual Learning and Visual Question Answering (VQA) do not study how the multimodal nature of the input affects the learning dynamics of a model. In this paper, we demonstrate that each modality evolves at different rates across a continuum of tasks and that this behavior occurs in established encoder-only models as well as modern recipes for developing Vision & Language (VL) models. Motivated by this observation, we propose a modality-aware feature distillation (MAFED) approach which outperforms existing baselines across models of varying scale in three multimodal continual learning settings. Furthermore, we provide ablations showcasing that modality-aware distillation complements experience replay. Overall, our results emphasize the importance of addressing modality-specific dynamics to prevent forgetting in multimodal continual learning.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -47,9 +46,9 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2410.15453'
-url_code: 'https://github.com/MalvinaNikandrou/crope/tree/main'
-url_dataset: 'https://huggingface.co/datasets/Malvinan/CROPE'
+url_pdf: 'https://arxiv.org/abs/2406.19297'
+url_code: 'https://github.com/MalvinaNikandrou/mafed'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
