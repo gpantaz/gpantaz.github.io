@@ -1,12 +1,11 @@
 ---
-title: 'Shaking Up VLMs: Comparing Transformers and Structured State Space Models for Vision & Language Modeling'
+title: 'Lost in Space: Probing Fine-grained Spatial Understanding in Vision and Language Resamplers'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Malvina Nikandrou
   - Alessandro Suglia
   - Oliver Lemon
   - Arash Eshghi
@@ -28,10 +27,10 @@ publishDate: '2024-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2024 Conference on Empirical Methods in Natural Language Processing*
-publication_short: In *EMNLP*
+publication: In *2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics*
+publication_short: In *NAACL*
 
-abstract: This study explores replacing Transformers in Visual Language Models (VLMs) with Mamba, a recent structured state space model (SSM) that demonstrates promising performance in sequence modeling. We test models up to 3B parameters under controlled conditions, showing that Mamba-based VLMs outperforms Transformers-based VLMs in captioning, question answering, and reading comprehension. However, we find that Transformers achieve greater performance in visual grounding and the performance gap widens with scale. We explore two hypotheses to explain this phenomenon':' 1) the effect of task-agnostic visual encoding on the updates of the hidden states, and 2) the difficulty in performing visual grounding from the perspective of in-context multimodal retrieval. Our results indicate that a task-aware encoding yields minimal performance gains on grounding, however, Transformers significantly outperform Mamba at in-context multimodal retrieval. Overall, Mamba shows promising performance on tasks where the correct output relies on a summary of the image but struggles when retrieval of explicit information from the context is required.
+abstract: An effective method for combining frozen large language models (LLM) and visual encoders involves a resampler module that creates a `visual prompt' which is provided to the LLM, along with the textual prompt. While this approach has enabled impressive performance across many coarse-grained tasks like image captioning and visual question answering, more fine-grained tasks that require spatial understanding have not been thoroughly examined. In this paper, we use \textit{diagnostic classifiers} to measure the extent to which the visual prompt produced by the resampler encodes spatial information. Our results show that this information is largely absent from the resampler output when kept frozen during training of the classifiers. However, when the resampler and classifier are trained jointly, we observe a significant performance boost. This shows that the compression achieved by the resamplers can in principle encode the requisite spatial information, but that more object-aware objectives are needed at the pretraining stage to facilitate this capability.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -47,7 +46,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2409.05395'
+url_pdf: 'https://arxiv.org/abs/2404.13594'
 url_code: 'https://github.com/gpantaz/vl_mamba'
 url_dataset: ''
 url_poster: ''
@@ -78,3 +77,4 @@ url_video: ''
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
