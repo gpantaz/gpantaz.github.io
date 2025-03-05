@@ -1,6 +1,6 @@
 ---
 title: EMMA
-date: 2023-10-26
+date: 2023-05-01
 external_link: https://github.com/emma-heriot-watt/
 # tags:
 #   - Hugo
