@@ -115,6 +115,15 @@ work:
   #     - Migrated infrastructure to a new data center
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: AI Research Intern
+    company_name: Alan Turing Institute
+    company_url: 'https://www.turing.ac.uk/'
+    company_logo: null
+    location: Edinburgh
+    date_start: '2025-06-01'
+    description: |2-
+        * Worked on image-to-image, image-to-video, image & text-to video retrieval
+  
   - position: Software Engineer Intern
     company_name: Reka AI
     company_url: 'https://www.reka.ai/'
