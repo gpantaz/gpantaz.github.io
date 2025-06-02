@@ -123,6 +123,7 @@ work:
     date_start: '2025-02-01'
     description: |2-
         * Worked on image-to-image, image-to-video, image & text-to video retrieval
+    date_end: '2025-04-30'
   
   - position: Machine Learning Engineer
     company_name: Behavioral Signals
