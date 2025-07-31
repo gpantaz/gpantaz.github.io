@@ -7,7 +7,7 @@ title: 'Evaluating Multimodal Language Models as Visual Assistants for Visually 
 authors:
   - Antonia Karamolegkou
   - Malvina Nikandrou
-  - admin 
+  - admin
   - Danae Sanchez Villegas
   - Phillip Rust
   - Ruchira Dhar
@@ -16,9 +16,9 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - "Equal contribution"
+  - "Equal contribution"
+  - "Equal contribution"
 
 date: '2025-07-01T00:00:00Z'
 doi: ''
