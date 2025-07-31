@@ -12,7 +12,7 @@ authors:
   - Phillip Rust
   - Ruchira Dhar
   - Daniel Hershcovich
-  - Anders Sogaard
+  - Anders Søgaard
 
 # Author notes (optional)
 author_notes:
