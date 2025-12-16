@@ -121,7 +121,7 @@ work:
     company_logo: null
     location: Edinburgh
     date_start: '2025-06-01'
-    date_end: '2020-12-01'
+    date_end: '2025-12-01'
     description: |2-
         * Worked on image-to-image, image-to-video, image & text-to video retrieval
   
