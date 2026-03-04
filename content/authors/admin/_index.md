@@ -125,7 +125,7 @@ work:
     description: |2-
         * Worked on image-to-image, image-to-video, image & text-to video retrieval
   
-  - position: Software Engineer Intern
+  - position: AI Engineer Intern
     company_name: Reka AI
     company_url: 'https://www.reka.ai/'
     company_logo: null
