@@ -52,8 +52,8 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2503.22610'
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/MalvinaNikandrou/visual-assistant-eval'
+url_dataset: 'https://github.com/MalvinaNikandrou/visual-assistant-eval'
 url_poster: ''
 url_project: ''
 url_slides: ''
