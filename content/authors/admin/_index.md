@@ -136,7 +136,7 @@ work:
     company_url: 'https://www.hw.ac.uk/'
     company_logo: null
     location: Edinburgh
-    date_start: '2023-09-01'
+    date_start: '2022-09-01'
     date_end: '2025-12-01'
   
   - position: Machine Learning Engineer
