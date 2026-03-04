@@ -122,8 +122,6 @@ work:
     location: Edinburgh
     date_start: '2025-06-01'
     date_end: '2025-12-01'
-    description: |2-
-        * Worked on image-to-image, image-to-video, image & text-to video retrieval
   
   - position: AI Engineer Intern
     company_name: Reka AI
@@ -131,9 +129,15 @@ work:
     company_logo: null
     location: Edinburgh
     date_start: '2025-02-01'
-    description: |2-
-        * Worked on image-to-image, image-to-video, image & text-to video retrieval
     date_end: '2025-04-30'
+
+  - position: Teaching Assistant
+    company_name: Heriot-Watt University
+    company_url: 'https://www.hw.ac.uk/'
+    company_logo: null
+    location: Edinburgh
+    date_start: '2023-09-01'
+    date_end: '2025-12-01'
   
   - position: Machine Learning Engineer
     company_name: Behavioral Signals
@@ -142,13 +146,6 @@ work:
     location: Athens
     date_start: '2018-09-01'
     date_end: '2020-04-01'
-    description: |2-
-        * Developed audio and text models for emotion recognition
-        * Carried out research in active learning pipeline to address class imbalances
-        * Contributed to the implementation of voice activity detection algorithms
-        * Contributed to real-time systems for emotion and hesitation recognition
-        * Established data collection pipelines
-        * Implemented audio annotation and visualization tools
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
