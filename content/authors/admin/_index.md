@@ -226,5 +226,7 @@ work:
 
 ## Welcome!
 
-I am a third year PhD student in the CDT in Robotics and Autonomous Systems at the [Edinburgh Center for
-Robotics](https://www.edinburgh-robotics.org/) supervised by [Alessandro Suglia](https://alesuglia.github.io/). My work focuses on multimodal natural language processing and exploring architectural design choices that impact general image-level tasks but also fine-grained visual understanding. I am particularly excited about methods that equip vision & language models with fine and coarse grained understanding skills but also teaching agents to act in dynamic environments from static data.
+I am a final year PhD student in the CDT in Robotics and Autonomous Systems at the [Edinburgh Center for
+Robotics](https://www.edinburgh-robotics.org/) supervised by [Alessandro Suglia](https://alesuglia.github.io/). My work focuses on multimodal natural language processing and exploring architectural design choices that impact general image-level tasks but also fine-grained visual understanding. I am particularly excited about methods that equip vision & language models with fine and coarse grained understanding skills but also teaching agents to act in dynamic environments from static data. 
+
+I'm currently looking for new opportunities in the field of AI and NLP, particularly with multi-modal LLM, feel free to get in touch!
