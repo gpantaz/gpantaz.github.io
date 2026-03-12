@@ -24,6 +24,8 @@ role: PhD Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: University of Edinburgh 
+    url: https://informatics.ed.ac.uk/
   - name: Heriot-Watt University
     url: https://www.hw.ac.uk/
 
@@ -31,7 +33,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'georgepantaz94@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GeorgePantazop3
@@ -81,7 +83,7 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: PhD in Artificial Intelligence
-    institution: Heriot-Watt University
+    institution: University of Edinburgh / Heriot-Watt University
     date_start: 2021-08-01
   - area: MSc in Artificial Intelligence with Speech and Multimodal Interaction
     institution: Heriot-Watt University
